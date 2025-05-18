@@ -1,4 +1,5 @@
-{
+[
+	{
 		"name": "Athenian",
 		"preferredVictoryType": "Diplomatic",
 	        "food": 4,
@@ -101,3 +102,4 @@
     "Rationalism": 20
 	}
 }
+]
