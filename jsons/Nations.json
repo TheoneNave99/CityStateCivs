@@ -67,7 +67,7 @@
            		    "[+2 Culture] from every [Land Trade Route (Gold)] <hidden from users>",
             		    "[+2 Culture] from every [Sea Trade Route (Food)] <hidden from users>",
             		    "[+2 Culture] from every [Sea Trade Route (Production)] <hidden from users>",
-            		    "[+2 Culture] from every [Sea Trade Route (Gold)] <hidden from users>",],
+            		    "[+2 Culture] from every [Sea Trade Route (Gold)] <hidden from users>"],
 		"uniqueText": "City state influence recovers at twice the speed and degrades half as fast. \n+3 [Science] and +3 [Culture] for every other social policy adopted. \n+3 [Culture] from all [Science] buildings. \n+2 [Culture] from every [Trade Route] \nCannot build settlers.",
 	        "cities": ["Athens", "Miletos","Phocaea", "Samos",
 			"Chalkis","Naxos", "Ephesus", "Chios", "Delos", "Thasos", "Abydos", "Olynthos", "Serfios", "Smyrna", "Imbros",
