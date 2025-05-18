@@ -5,27 +5,28 @@
 		"uniqueTo": "Thebes",
 		"cost": 150,
 		"culture": 2,
-  "cityHealth": 25,
- 	"greatPersonPoints": {"Great General": 1},
+ 		"cityHealth": 25,
+ 		"greatPersonPoints": {"Great General": 1},
 		"specialistSlots": {"Merchant": 1},
 		"percentStatBonus": {"Gold": 20, "Food": 10},
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Doubles Gold given to enemy if city is captured", "[-10]% maintenance cost for buildings [in this city]"],
+		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Doubles Gold given to enemy if city is captured", "[-25]% maintenance cost for buildings [in this city]"],
 		"requiredTech": "Masonry"
 	},
 	{
 		"name": "Acropolis",
-		"replaces": "Walls",
+		"replaces": "Palace",
 		"uniqueTo": "Athens",
-                "culture": 1,
-	        "faith": 1,
+		"production": 2,
+                "science": 2,
+		"culture": 3,
+		"gold": 2,
                 "specialistSlots": {"Artist": 1},
-		"cost": 90,
+		"specialistSlots": {"Merchant": 1},
+		"cost": 0,
 		"cityStrength": 5,
-		"cityHealth": 50,
-		"hurryCostModifier": 70,
-		"requiredTech": "Masonry",
-		"uniques": ["[+1 Gold] <after discovering [Flight]>"]
+		"cityHealth": 8,
+		"uniques": ["Indicates the capital city", "[+5 Gold] <after discovering [Flight]>"]
 	},
 	{
 		"name": "Neosoikos",
@@ -35,8 +36,11 @@
 		"cityStrength": 3,
 		"gold": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
-			"Connects trade routes over water","Must be next to [Coast]", "[+2 Gold] from each Trade Route", "[+15]% Production when constructing [Water] units [in this city]"],
+		"uniques": [
+			"Connects trade routes over water","Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]",
+			"[+2 Gold] from [Sea Trade Route (Gold)] tiles [in this city]", "[+2 Gold] from [Sea Trade Route (Food)] tiles [in this city]",
+			"[+2 Gold] from [Sea Trade Route (Production)] tiles [in this city]", "[+1 Production] from [Water resource] tiles [in this city]"],
+		"replacementTextForUniques": "Connects trade routes over water, plus 2 gold from every Sea Trade Route, and plus 1 production from water resources"
 		"requiredTech": "Optics"
 	},
 {
@@ -58,8 +62,8 @@
 		"replaces": "Library",
 		"specialistSlots": {"Philosopher": 2},
 		"hurryCostModifier": 20,
-  "happiness": 1,
-  "culture": 1,
+  		"happiness": 1,
+  		"culture": 1,
 		"maintenance": 1,
 		"uniques": ["[+1 Science] per [2] population [in this city]", "+1 Philosopher slot (+1 [Science], +2 [Culture], +2 Great Scientist Points)"],
 		"requiredTech": "Writing",
@@ -76,22 +80,21 @@
 		"specialistSlots": {"Artist": 1},
                 "maintenance": 2,
                 "percentStatBonus": {"production": 5},
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "New [Mounted] units start with [10] Experience [in this city]", "Gain [2]-[3] [Science] <upon gaining a [Mounted] unit>", "Gain [2]-[3] [Science] <upon gaining a [Armored] unit>"],
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "New [Mounted] units start with [10] Experience [in this city]", "Gain [2]-[3] [Science] <upon gaining a [Mounted] unit>", "Gain [3]-6] [Science] <upon gaining a [Armored] unit>"],
 		"requiredTech": "Bronze Working"
 	},
-/*
 {
 		"name": "Claw of Archimedes",
 		"uniqueTo": "Syracuse",
 		"cost": 150,
 		"culture": 2,
-  "cityHealth": 50,
-  "cityStrength": 25,
- 	"greatPersonPoints": {"Great Engineer": 2},
+  		"cityHealth": 50,
+  		"cityStrength": 30,
+ 		"greatPersonPoints": {"Great Engineer": 2},
 		"specialistSlots": {"Engineer": 2},
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Doubles Gold given to enemy if city is captured", "[-10]% maintenance cost for buildings [in this city]"],
 		"requiredTech": "Masonry"
-} */
+}
 
 ]
