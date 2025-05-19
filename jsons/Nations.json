@@ -25,8 +25,8 @@
 		"innerColor": [235, 215, 60],
 		"favoredReligion": "Christianity",
 		"uniqueName": "We need to take India right fucking now",
-		"uniques": ["Cannot build [Settler] units", "[+2] Movement <in [Enemy Land] tiles> <for [Land] units>", "[+15]% Strength <for [Land] units>",
-			    "[+1 Culture] per [2] population [in annexed cities]", "[+3 Culture] per [2] population [in annexed cities] <during a Golden Age>"],
+		"uniques": ["Cannot build [Settler] units", "[+2] Movement <for [Land] units>", "[+15]% Strength <for [Land] units>",
+			    "[+2 Culture] per [2] population [in annexed cities]", "[+4 Culture] per [2] population [in annexed cities] <during a Golden Age>"],
 		"cities": ["Pella", "Pydna", "Aegae", "Alexandria", "Therma", "Pergamon", "Ambracia", "Alexandria II", "Alexandria III", "Methoni", "Larissa", 
 			"Alexandria IV", "Herakleia","Alexandria V","Alexandria VI", "Pherae",
 			"Alexandria VII","Orchomenos", "Alexandria VIII", "Alexandria IX", "Sicyon", "Alexandria X", "Ambracia", "Alexandria XI", "Alexandria XII", "Dodona", "Alexandria XIII", "Paros", "Alexandria XV", "Alexandria XVI", "Alexandria XVII", "Alexandria XVIII", "Alexandria XIX", "Hellespont Phrygia", "Alexandria XX", "Alexandria LVII", "Alexandria DCCCLXXXVIII", "Skopje"],
@@ -217,5 +217,31 @@
 			"Patras","Lamia","Nafplion","Apolyton", "Troizen"],
         "spyNames": ["Jeson", "Hiline", "Aloix", "Platon", "Kassandros", "Andros", "Desdemona", "Antheas", "Aeneas", "Loindiraos", "Dada da du du da do do mo ne bam ba bah"]
     },
+{
+	"name": "The United Nations",
+	"adjective": ["Humanity"],
+	"leaderName": "Dag Hammarskjöld",
+	"preferredVictoryType": "Diplomatic",
+	"personality": "Peackeeper",
+	
+	"declaringWar": "It pains me to utter these words, but when the drums of conflict beat louder than the whispers of reason, I am compelled to act. We march not to vanquish, but to vindicate the principles of justice and peace that have been so callously disregarded.",
+	"attacked": "Your actions are a disservice to the very fabric of our global community. We did not seek to engage in this conflict, yet we will not falter in our duty to protect the innocent and uphold the sanctity of international law.",
+	"defeated":"In the shadows of defeat, I find solace in the knowledge that our ideals shall endure, even as our institutions crumble. We stood for the betterment of humanity, and though our efforts were imperfect, our spirit remains unbroken. Your triumph is a hollow one, for in destroying us, you have diminished the very essence of our shared humanity.",
+	"introduction": "May the harmony of our meeting today serve as a testament to the enduring power of diplomacy. As we navigate the complexities of our global tapestry, let us weave a narrative of cooperation, rather than discord. I extend a hand of peace, in the hopes that our nations may walk the paths of cooperation.",
+
+	"neutralHello": "Welcome to the International stage, What would you like to discuss?",
+	"hateHello": "Your nation's actions have shown a blatant disregard for the well-being of our global community.",
+
+	"tradeRequest": "The storied Silk Road has borne many treasures into Kushan's grasp; perhaps we can come to a mutually enriching arrangement?",
+	"innerColor": [255, 255, 255],
+	"outerColor": [65, 143, 222],
+
+	"uniqueName": "International Diplomacy",
+	"uniques": ["Cannot build [Settler] units", "City-State territory always counts as friendly territory", "Allied City-States will occasionally gift Great People",
+		    "[-25]% City-State Influence degradation", "[All] units gain the [International Agreements] promotion", "[+75]% Production when constructing [United Nations] buildings [in all cities]"],
+	"spyNames": ["James", "Maria", "David", "Anna", "John", "Sophia", "Michael", "Isabella", "Daniel", "Emma"],
+	"cities": ["UN HQ", "Geneva", "Vienna", "Rome", "Paris", "Nairobi", "The Hague", "Addis Ababa", "Bangkok", "Beirut", "Santiago", "Washington D.C.", "Copenhagen", "Montreal", "London", "Madrid", "Tokyo", "Bern"],
+},
+
 
 ]
