@@ -171,4 +171,20 @@
                  ]
 		"attackSound": "metalhit"
 	},
+	{
+	"name": "Peacekeeper",
+	"uniqueTo": "The United Nations",
+	"replaces": "Infantry",
+	"unitType": "Gunpowder",
+	"movement": 2,
+	"strength": 70,
+	"cost": 275,
+	"requiredTech": "Plastics",
+	"uniques": ["Can move immediately once bought", "Unable to capture cities"],
+	"promotions": ["[Peacekeeper] ability", "Medic"],
+	"upgradesTo": "Mechanized Infantry",
+	"obsoleteTech": "Mobile Tactics",
+	"attackSound": "shot"
+},
+
 ]
