@@ -96,5 +96,22 @@
 		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Doubles Gold given to enemy if city is captured", "[-10]% maintenance cost for buildings [in this city]"],
 		"requiredTech": "Masonry"
 }
+		{
+		"name": "United Nations Headquarters",
+		"uniqueTo": "The United Nations",
+		"replaces": "National Intelligence Agency",
+		"cost": 350,
+		"culture": 2,
+		"isNationalWonder": true,
+		"uniques": ["Militaristic City-States grant units [4] times as fast when you are at war with a common nation",
+			"[-75]% City-State Influence degradation",
+			"Resting point for Influence with City-States is increased by [30]",
+			"Only available <when espionage is enabled>",
+			"New spies start with [1] level(s)",
+			"Promotes all spies [1] time(s)",
+			"Gain an extra spy",
+			"[-15]% enemy spy effectiveness [in this city]"],
+			"requiredTech": "Radio"
+		},
 
 ]
