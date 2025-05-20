@@ -294,5 +294,17 @@
         ],
         "attackSound": "shot"
     },
-
+	{
+		"name": "Disciple of Archemides",
+		"unitType": "Civilian",
+		"replaces": "Great Engineer",
+		"uniqueTo": "Syracuse",
+		"uniques": ["Can speed up construction of a building",
+        	"Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+	    	"Can instantly construct a [Academy] improvement <by consuming this unit>",
+	    	"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+		"Can build [Fort] improvements at a [+100]% rate",
+            	"Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
 ]
