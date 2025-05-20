@@ -60,7 +60,7 @@
 		"uniqueName": "Attic Hegemony",
  	        "personality": "Athenian", 
 		"uniques": ["Cannot build [Settler] units", "Provides [2] [Trade Route] <upon discovering [Compass] technology>", "Provides [2] [Trade Route] <upon discovering [Astronomy] technology>", "Provides [2] [Trade Route] <upon discovering [Navigation] technology>",
-			    "Free [Cargo Ship] appears <upon discovering [Compass] technology>", "[+3 Science, +3 Culture] per [2] social policies adopted", "[+3 Culture] from all [Science] buildings",
+			    "Free [Cargo Ship] appears <upon discovering [Compass] technology>", "[+1 Science, +2 Culture] per [2] social policies adopted", "[+3 Culture] from all [Science] buildings",
             		    "[+3 Culture] from every [Sea Trade Route (Food)]",
             		    "[+3 Culture] from every [Sea Trade Route (Production)]",
             		    "[+3 Culture] from every [Sea Trade Route (Gold)]"],
