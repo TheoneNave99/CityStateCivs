@@ -206,7 +206,7 @@
 		"uniqueName": "Magna Graecia",
   		"personality": "Syracussy", 
 		"uniques": ["Cannot build [Settler] units","Cannot annex cities", "[+2 Culture] from every [Scientist]", "[+3 Science] from every [Engineer]",
-			    "Free [Great Engineer] appears <upon discovering [Engineering] technology>", "Free [Great Engineer] appears <upon constructing [World Wonder]>"],
+			    "Free [Great Engineer] appears <upon discovering [Engineering] technology>", "Free [Great Engineer] appears <upon constructing [World Wonder]> <with [20]% chance>"],
 	        "cities": ["Syracuse",  "Tauromenion","Akrai",
 			"Tyndaris", "Aitna","Ankon", "Kephaloidion", "Chios", "Delos", "Thasos", "Abydos", "Olynthos", "Serfios", "Smyrna", "Imbros",
 			"Patras","Lamia","Nafplion","Apolyton", "Troizen"],
