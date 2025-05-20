@@ -257,7 +257,7 @@
         "uniqueName": "World Explorers",
         "uniques": [  
 		     "Starts with [Exploration] adopted", "[+3] Movement <for [Water] units>", "[+3] Movement <for [Embarked] units>",
-		     "[+50]% Production when constructing [Scout] units [in all cities]", "[+33]% Production when constructing [Water] units [in all cities]",
+		     "[+50]% Production when constructing [Scout] units [in all cities]", "[+25]% Production when constructing [Water] units [in all cities]",
 		     "Cannot build [Settler] units"]
         "cities": [
             "Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Luanda",
@@ -293,8 +293,8 @@
 
 		"favoredReligion": "Hinduism",
 		"uniqueName": "Population Explosion",
-		"uniques": ["Cannot build [Settler] units", "[-100]% Unhappiness from [Population] [in capital]", "[25]% Food is carried over after population increases [in capital]",
-			"[-50]% Food consumption by specialists [in capital]", "[+2 Food] from [Farm] tiles [in all cities]"],
+		"uniques": ["Cannot build [Settler] units", "[-100]% Unhappiness from [Population] [in capital]", "[20]% Food is carried over after population increases [in capital]",
+			"[-50]% Food consumption by specialists [in capital]", "[+2 Food] from [Farm] tiles [in capital]"],
 		"cities": ["The Grand Metro","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
 			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
 			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
@@ -321,7 +321,10 @@
 		"innerColor": [37, 43, 33],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Mercenary Contracts",
-		"uniques": ["Cannot build [Settler] units","Gain [20] Influence with a [Military] gift to a City-State", "[+2 Gold] per every [1] [Military] unit"],
+		"uniques": ["Cannot build [Settler] units", "Cannot annex cities","Gain [20] Influence with a [Military] gift to a City-State",
+			"[-75]% maintenance costs <for [Sword] units>", "[-50]% maintenance costs <for [Gunpowder] units>",
+			"[+10]% [Gold] [in capital] from every [Citadel]","[+1]% [Gold] [in capital] from every [Fort]"],
+		
 		"cities": ["Home Op","Blackwater","Figgis Agency","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
 			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
 			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
