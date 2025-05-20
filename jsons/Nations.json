@@ -242,6 +242,39 @@
 	"spyNames": ["James", "Maria", "David", "Anna", "John", "Sophia", "Michael", "Isabella", "Daniel", "Emma"],
 	"cities": ["UN HQ", "Geneva", "Vienna", "Rome", "Paris", "Nairobi", "The Hague", "Addis Ababa", "Bangkok", "Beirut", "Santiago", "Washington D.C.", "Copenhagen", "Montreal", "London", "Madrid", "Tokyo", "Bern"],
 },
+{
+        "name": "The Explorers Guild",
+        "leaderName": "The Navigator",
+        "adjective": ["Guild"],
+        "startBias": ["Coast"],
+	"favoredReligion": "Catholicism",
+	
+        "startIntroPart1": "Blessings be upon you, most gracious Navigator, protector and sovereign of the Guilds people.",
+        "startIntroPart2": ""
+	"declaringWar": "I'm afraid I cannot allow your kingdom to exist for much longer! I hope you won't mind...",
+        "attacked": "You cannot be serious!",
+        "defeated": "I know little about this conflict...I'll have to consult my regent...",
+        "introduction": "Have we met before? You look familiar to me... Or maybe not.",
+        "neutralHello": "Good morning.",
+        "hateHello": "Why did you come?",
+        "tradeRequest": "Will you consider this offer?",
+        "outerColor": [206,206,205],
+        "innerColor": [8,25,115],
+        "uniqueName": "World Explorers",
+        "uniques": [  
+		     "Starts with [Exploration] adopted", "[+2] Movement <for [Water] units>", "[+2] Movement <for [Embarked] units>",
+		     "[+33]% Production when constructing [Scout] units [in all cities]", "[+33]% Production when constructing [Water] units [in all cities]",
+		     "Cannot build [Settler] units"]
+        "cities": [
+            "Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Luanda",
+            "Evora","Faro","Castelo Branco","Bissau","Guarda","Viseu","Praia","Braganza","Beja","Tomar",
+            "Maputo","Tavira","Figueira da Foz","Viana do Castelo","Sao Tome and Principe","Silves","Sintra","Dili","Lamego",
+            "Ponta Delgada"
+        ],
+        "spyNames": [
+            "Francisco","Gaspar","Alvaro","Bento","Roberto","Afonso","Galeote","Diogo","Eliana","Oriana"
+        ]
+    },
 
 
 ]
