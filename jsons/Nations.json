@@ -211,7 +211,8 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Magna Graecia",
   		"personality": "Syracussy", 
-		"uniques": ["Cannot build [Settler] units","Cannot annex cities", "[+2 Culture] from every [Scientist]", "[+3 Science] from every [Engineer]", "Gain a free [Architectural Marvel] [in a random city] <upon gaining a [Great Engineer] unit>"],
+		"uniques": ["Cannot build [Settler] units","Cannot annex cities", "[+2 Culture] from every [Scientist]", "[+3 Science] from every [Engineer]",
+			    "Free [Great Engineer] appears <upon discovering [Construction] technology>", "Free [Great Engineer] appears <upon discovering [Engineering] technology>"],
 	        "cities": ["Syracuse",  "Tauromenion","Akrai",
 			"Tyndaris", "Aitna","Ankon", "Kephaloidion", "Chios", "Delos", "Thasos", "Abydos", "Olynthos", "Serfios", "Smyrna", "Imbros",
 			"Patras","Lamia","Nafplion","Apolyton", "Troizen"],
@@ -238,7 +239,7 @@
 
 	"uniqueName": "International Diplomacy",
 	"uniques": ["Cannot build [Settler] units", "City-State territory always counts as friendly territory", "Allied City-States will occasionally gift Great People",
-		    "[-25]% City-State Influence degradation", "[All] units gain the [International Agreements] promotion", "[+75]% Production when constructing [United Nations] buildings [in all cities]"],
+		    "[-50]% City-State Influence degradation", "[All] units gain the [International Agreements] promotion", "[+75]% Production when constructing [United Nations] buildings [in all cities]"],
 	"spyNames": ["James", "Maria", "David", "Anna", "John", "Sophia", "Michael", "Isabella", "Daniel", "Emma"],
 	"cities": ["UN HQ", "Geneva", "Vienna", "Rome", "Paris", "Nairobi", "The Hague", "Addis Ababa", "Bangkok", "Beirut", "Santiago", "Washington D.C.", "Copenhagen", "Montreal", "London", "Madrid", "Tokyo", "Bern"],
 },
@@ -261,8 +262,8 @@
         "innerColor": [8,25,115],
         "uniqueName": "World Explorers",
         "uniques": [  
-		     "Starts with [Exploration] adopted", "[+2] Movement <for [Water] units>", "[+2] Movement <for [Embarked] units>",
-		     "[+33]% Production when constructing [Scout] units [in all cities]", "[+33]% Production when constructing [Water] units [in all cities]",
+		     "Starts with [Exploration] adopted", "[+3] Movement <for [Water] units>", "[+3] Movement <for [Embarked] units>",
+		     "[+50]% Production when constructing [Scout] units [in all cities]", "[+33]% Production when constructing [Water] units [in all cities]",
 		     "Cannot build [Settler] units"]
         "cities": [
             "Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Luanda",
