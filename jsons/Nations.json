@@ -292,14 +292,43 @@
         "innerColor": [255, 163, 71],
 
 		"favoredReligion": "Hinduism",
-		"uniqueName": "Population Growth",
+		"uniqueName": "Population Explosion",
 		"uniques": ["Cannot build [Settler] units", "[-100]% Unhappiness from [Population] [in capital]", "[25]% Food is carried over after population increases [in capital]",
-			"[-50]% Food consumption by specialists [in capital]"],
+			"[-50]% Food consumption by specialists [in capital]", "[+2 Food] from [Farm] tiles [in all cities]"],
 		"cities": ["The Grand Metro","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
 			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
 			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
         "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
     },
+	{
+		"name": "The Mercenary Agency",
+		"leaderName": "Captian Bismarck",
+		"adjective": ["Agency"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Otto von Bismarck",
 
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "I cannot wait until ye grow even mightier. Therefore, prepare for war!",
+		"attacked": "Corrupted villain! We will bring you into the ground!",
+		"defeated": "We have been destroyed. I weep for the future generations.",
+		"introduction": "Guten Tag. I bid you welcome.",
+		"neutralHello": "What now?",
+		"hateHello": "So, out with it!",
+		"tradeRequest": "It would be in your best interest, to carefully consider this proposal.",
+		"outerColor": [179, 178, 184],
+		"innerColor": [37, 43, 33],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Mercenary Contracts",
+		"uniques": ["Cannot build [Settler] units","Gain [20] Influence with a [Military] gift to a City-State", "[+2 Gold] per every [1] [Military] unit"],
+		"cities": ["Home Op","Blackwater","Figgis Agency","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
+			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
+			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
+			"Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrücken","Krefeld","Pirmasens","Potsdam","Solingen",
+			"Osnabrück","Ludwigshafen","Leverkusen","Oldenburg","Neuss","Mülheim","Darmstadt","Herne","Würzburg",
+			"Recklinghausen","Göttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"],
+        "spyNames": ["Johann", "Marlene", "Wilhelm", "Eva", "Heinz", "Horst", "Carl", "Viper", "Albrecht", "Anton"]
+    },
 
 ]
