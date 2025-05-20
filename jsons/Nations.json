@@ -247,7 +247,6 @@
         "leaderName": "The Navigator",
         "adjective": ["Guild"],
         "startBias": ["Coast"],
-	"favoredReligion": "Catholicism",
 	
         "startIntroPart1": "Blessings be upon you, most gracious Navigator, protector and sovereign of the Guilds people.",
         "startIntroPart2": ""
